@@ -254,7 +254,7 @@ input[type=text] {
 .section-2 .sec-2-wrapper{
     margin: 50px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,minmax(750px, 1fr));
     background-color: #8B4513;
 }
 .section-2 .sec-2-wrapper h2{

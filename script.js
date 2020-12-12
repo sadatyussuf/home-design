@@ -44,31 +44,32 @@ window.addEventListener("DOMContentLoaded",function(event){
         //  console.log(i)
         //  i++
         
-        if (i == 0){
-            imgs[5].style.filter = 'brightness(50%)';
-        }
-           if (i==1){
-               imgs[0].style.filter = 'brightness(50%)';
-            }
-            if (i == 2){
-                imgs[1].style.filter = 'brightness(50%)';
-            }
-             if (i == 3){
-                imgs[2].style.filter = 'brightness(50%)';
-            }
-             if (i == 4){
-                imgs[3].style.filter = 'brightness(50%)';
-            }
-             if (i == 5){
-                imgs[4].style.filter = 'brightness(50%)';
-            }
+        //----------------------------SlideShow----------------------------------
+        // if (i == 0){
+        //     imgs[5].style.filter = 'brightness(50%)';
+        // }
+        //    if (i==1){
+        //        imgs[0].style.filter = 'brightness(50%)';
+        //     }
+        //     if (i == 2){
+        //         imgs[1].style.filter = 'brightness(50%)';
+        //     }
+        //      if (i == 3){
+        //         imgs[2].style.filter = 'brightness(50%)';
+        //     }
+        //      if (i == 4){
+        //         imgs[3].style.filter = 'brightness(50%)';
+        //     }
+        //      if (i == 5){
+        //         imgs[4].style.filter = 'brightness(50%)';
+        //     }
 
-        imgs[i].style.filter = 'brightness(100%)';
-        if (i >=5){
-            i=0;
-        }
-        console.log(i)
-        i++
+        // imgs[i].style.filter = 'brightness(100%)';
+        // if (i >=5){
+        //     i=0;
+        // }
+        // console.log(i)
+        // i++
         
     }
     
